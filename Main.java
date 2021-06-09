@@ -2,11 +2,11 @@ package Buffet;
 
 import java.util.Scanner;
 
-//Buffet.Main class where whole program will be ran
+//Main class where whole program will be ran
 public class Main {
     //version number
     static String version = "0.1";
-    static String[] availablePrograms = {"Buffet.Calculator","Buffet.Stack"};
+    static String[] availablePrograms = {"Calculator","Stack"};
 
     private static int index = 0;
 

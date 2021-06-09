@@ -36,7 +36,7 @@ public class Stack {
 
     //pushes a specified value onto the stack unless its full.
     public void push(int x){
-        //Buffet.Stack will not be affected unless its not full.
+        //Stack will not be affected unless its not full.
         if (isFull()){
             //This print statement is mostly for debugging purposes and if no case is made in the program it is used in for when the stack is full.
             System.out.println("Error cannot push, stack is full.");
@@ -63,7 +63,7 @@ public class Stack {
 
     //returns the value on the top of the stack without taking it out. Returns -1 if the stack is empty.
     public int peek(){
-        //Buffet.Stack must not be empty for a valid value to be returned
+        //Stack must not be empty for a valid value to be returned
         if(!(isEmpty())){
             return this.arr[this.top];
         } else{
