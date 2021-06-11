@@ -5,6 +5,7 @@ Program I'm developing which will just be a "buffet" of random features I put in
 Designing it to be modular and easy to add to, instructions to add programs to it are in the main file
 
 Programs so far:
+
 Basic Calculator
 
 Basic Stack Demo
