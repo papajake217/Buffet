@@ -6,6 +6,9 @@ Designing it to be modular and easy to add to, instructions to add programs to i
 
 Programs so far:
 Basic Calculator
+
 Basic Stack Demo
+
 Guessing Game (Higher or Lower)
+
 Simple Pokemon Battle (Can add any pokemon in the file as long as the arguments are right and its added to the list of pokemon)
