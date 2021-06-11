@@ -5,10 +5,9 @@ import java.util.Scanner;
 //Main class where whole program will be ran
 public class Main {
     //version number
-    static String version = "0.1";
-    static String[] availablePrograms = {"Calculator","Stack"};
+    static String version = "0.3";
+    static String[] availablePrograms = {"Calculator","Stack","Number Guessing Game","Pokemon Battle"};
 
-    private static int index = 0;
 
     public static void main(String[] args){
 
@@ -16,7 +15,6 @@ public class Main {
         while(true) {
             displayMenu();
             runCommand();
-
         }
     }
 
@@ -46,12 +44,15 @@ public class Main {
         //subtract one because the choices start at 1
         choice--;
 
-
+        //exception to static methods because hp wasn't being reset
+        PokemonBattle pokemon = new PokemonBattle();
         //option to exit is checked first
         switch(choice){
             case -1: System.exit(0); sc.close(); break;
             case 0: Calculator.run(); break;
             case 1: StackTesting.run(); break;
+            case 2: GuessingGame.run(); break;
+            case 3: pokemon.run(); break;
             default: break;
         }
 
