@@ -1,4 +1,4 @@
-# Buffet ver 0.3
+# Buffet version 0.3
 
 Program I'm developing which will just be a "buffet" of random features I put in it. No GUI so far, just runs in the console for now.
 
