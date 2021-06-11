@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     //version number
     static String version = "0.3";
+    //Add new programs into this list and it will automatically be added, also need to add it to the switch case at the bottom
     static String[] availablePrograms = {"Calculator","Stack","Number Guessing Game","Pokemon Battle"};
 
 
@@ -46,7 +47,8 @@ public class Main {
 
         //exception to static methods because hp wasn't being reset
         PokemonBattle pokemon = new PokemonBattle();
-        //option to exit is checked first
+
+        //add the new program being added here, in a new case with the next number. I change all programs main methods to just be called run, hence the uniform naming convention
         switch(choice){
             case -1: System.exit(0); sc.close(); break;
             case 0: Calculator.run(); break;
